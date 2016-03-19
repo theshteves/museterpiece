@@ -15,6 +15,7 @@
 		5401E02C1A93DA2600FADC22 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5401E02A1A93DA2600FADC22 /* LaunchScreen.xib */; };
 		5401E0381A93DA2600FADC22 /* MuseStatsIosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5401E0371A93DA2600FADC22 /* MuseStatsIosTests.m */; };
 		54EB6BC91AA0EAA3000D8142 /* LoggingListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EB6BC81AA0EAA3000D8142 /* LoggingListener.m */; };
+		ACB49127022394CC82B001B3 /* libPods-MuseStatsIos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F510290F967FA4ACCA0C65AB /* libPods-MuseStatsIos.a */; };
 		E91B78621B03B8A300082B2E /* libMuse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E91B78611B03B8A300082B2E /* libMuse.a */; };
 		E94FB6F01B03B53400B73B4B /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E94FB6EF1B03B53400B73B4B /* libc++.dylib */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B0777ECAEC3AB5D5C7C631C /* Pods-MuseStatsIos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuseStatsIos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MuseStatsIos/Pods-MuseStatsIos.debug.xcconfig"; sourceTree = "<group>"; };
+		1B7C02D1D3867FA0C3BB2492 /* Pods-MuseStatsIos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuseStatsIos.release.xcconfig"; path = "Pods/Target Support Files/Pods-MuseStatsIos/Pods-MuseStatsIos.release.xcconfig"; sourceTree = "<group>"; };
 		5401E0181A93DA2600FADC22 /* MuseStatsIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuseStatsIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5401E01C1A93DA2600FADC22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5401E01D1A93DA2600FADC22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -48,6 +51,7 @@
 		E91B78611B03B8A300082B2E /* libMuse.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMuse.a; sourceTree = "<group>"; };
 		E91B78631B03B8F500082B2E /* Muse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Muse.h; path = Headers/Muse/Muse.h; sourceTree = "<group>"; };
 		E94FB6EF1B03B53400B73B4B /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		F510290F967FA4ACCA0C65AB /* libPods-MuseStatsIos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MuseStatsIos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 			files = (
 				E91B78621B03B8A300082B2E /* libMuse.a in Frameworks */,
 				E94FB6F01B03B53400B73B4B /* libc++.dylib in Frameworks */,
+				ACB49127022394CC82B001B3 /* libPods-MuseStatsIos.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +84,8 @@
 				5401E01A1A93DA2600FADC22 /* MuseStatsIos */,
 				5401E0341A93DA2600FADC22 /* MuseStatsIosTests */,
 				5401E0191A93DA2600FADC22 /* Products */,
+				A8982103B7F36C3830B4DE88 /* Pods */,
+				B294F2170518EE92808CF2A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +141,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A8982103B7F36C3830B4DE88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B0777ECAEC3AB5D5C7C631C /* Pods-MuseStatsIos.debug.xcconfig */,
+				1B7C02D1D3867FA0C3BB2492 /* Pods-MuseStatsIos.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B294F2170518EE92808CF2A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F510290F967FA4ACCA0C65AB /* libPods-MuseStatsIos.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5401E03B1A93DA2600FADC22 /* Build configuration list for PBXNativeTarget "MuseStatsIos" */;
 			buildPhases = (
+				10095EFF0CBF7011EC39DF4B /* Check Pods Manifest.lock */,
 				5401E0141A93DA2600FADC22 /* Sources */,
 				5401E0151A93DA2600FADC22 /* Frameworks */,
 				5401E0161A93DA2600FADC22 /* Resources */,
+				FD51A12D76363A813F3409E0 /* Embed Pods Frameworks */,
+				CD3CFB14DC26BDB24B7D9CDA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +261,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10095EFF0CBF7011EC39DF4B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD3CFB14DC26BDB24B7D9CDA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MuseStatsIos/Pods-MuseStatsIos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD51A12D76363A813F3409E0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MuseStatsIos/Pods-MuseStatsIos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5401E0141A93DA2600FADC22 /* Sources */ = {
@@ -366,6 +441,7 @@
 		};
 		5401E03C1A93DA2600FADC22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B0777ECAEC3AB5D5C7C631C /* Pods-MuseStatsIos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -393,6 +469,7 @@
 		};
 		5401E03D1A93DA2600FADC22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B7C02D1D3867FA0C3BB2492 /* Pods-MuseStatsIos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

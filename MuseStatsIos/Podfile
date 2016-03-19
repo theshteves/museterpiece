@@ -1,0 +1,3 @@
+target 'MuseStatsIos' do
+    pod "CSStickyHeaderFlowLayout"
+end
