@@ -2,28 +2,92 @@
 <htmL>
 
 <head>
-	<title>"MUSE"terpiece</title>
+	<script src="/assets/jquery.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+	<title>MUSEterpiece</title>
 
 
 <style>
-	head {
-		background: black;
-		font-family: times new roman;
-		color: white;
-		;
-	}
 	h1 {
-		text-align: center;
-		font-family: times new roman;
-		color: teal;
+		position: absolute;
+		left: 0.5%;
+		font-family: trebuchet MS, cursive;
+		color: white;
 	}
+	h2 {
+		position: absolute;
+		top: 8%;
+		left: 1%;
+		text-align: center;
+		font-family:  trebuchet MS;
+		font-size: 20px;
+		color: white;
+	}
+	body {
+		background-image: url("http://wallpaperfx.com/uploads/wallpapers/2014/03/03/14442/preview_minimal-brain-sides.jpeg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100vh;
+  		margin: 0 auto;
+  		max-width: 600px;
+	}
+	.show-description p {
+ 		height: 150px;
+	}
+	.show-description small {
+ 		opacity: 1;
+	}
+	div {
+ 		height: 200px;
+		background-size: cover;
+ 		position: relative;
+ 		margin: 40px 0 0 0;
+ 		border-radius: 12px;
+	}
+	p {
+ 		color: rgba(255,255,255,1);
+  		background: black;
+ 		background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+		background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+		background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+		padding: 10px;
+		line-height: 28px;	
+		text-align: justify;
+  		position: absolute;
+  		bottom: 0;
+  		margin: 0;
+  		height: 30px;
+  		transition: height .5s;
+  		-webkit-transition: height .5s;
+  		-moz-transition: height .5s;
+	}
+	.price {
+  		float: right;
+	}
+	@media (max-width: 500px) {
+		div {
+    		margin: 20px 12px 0 12px;
+  		}
+  		p {
+    		font-size: 20px;
+    		line-height: 24px;
+ 		}
+ 		small {
+    		font-size: 16px;
+  		}
+  	}
 </style>
 </head>
 
 
 <body>
-	<h1>"MUSE"terpiece: Reading your mind and creating a 3D work of art from it.</h1>
-	<p></p>
-<body>
-</html>
-
+	<h1>MUSEterpiece: An iOS Application</h1> 
+	<h2>Reading your mind and creating a 3D work of art.</h2>
+		
+	<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+</body>
