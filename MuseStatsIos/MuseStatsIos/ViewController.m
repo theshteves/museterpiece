@@ -11,6 +11,10 @@
 
 @implementation ViewController
 
+- (IBAction)press:(UIButton *)sender {
+    
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -20,5 +24,4 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 @end
