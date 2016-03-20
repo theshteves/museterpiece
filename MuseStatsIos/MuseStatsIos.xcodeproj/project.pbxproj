@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		039797D31C9E62EC002DB1FA /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039797D21C9E62EC002DB1FA /* TableViewCell.swift */; };
+		039797D51C9E6389002DB1FA /* MuseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039797D41C9E6389002DB1FA /* MuseTableViewController.swift */; };
+		039797D81C9E68DA002DB1FA /* MuseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039797D71C9E68DA002DB1FA /* MuseViewController.swift */; };
 		5401E01E1A93DA2600FADC22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5401E01D1A93DA2600FADC22 /* main.m */; };
 		5401E0211A93DA2600FADC22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5401E0201A93DA2600FADC22 /* AppDelegate.m */; };
 		5401E0241A93DA2600FADC22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5401E0231A93DA2600FADC22 /* ViewController.m */; };
@@ -31,6 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		039797D21C9E62EC002DB1FA /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		039797D41C9E6389002DB1FA /* MuseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuseTableViewController.swift; sourceTree = "<group>"; };
+		039797D61C9E6640002DB1FA /* MuseStatsIos-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MuseStatsIos-Bridging-Header.h"; sourceTree = "<group>"; };
+		039797D71C9E68DA002DB1FA /* MuseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuseViewController.swift; sourceTree = "<group>"; };
 		1B0777ECAEC3AB5D5C7C631C /* Pods-MuseStatsIos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuseStatsIos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MuseStatsIos/Pods-MuseStatsIos.debug.xcconfig"; sourceTree = "<group>"; };
 		1B7C02D1D3867FA0C3BB2492 /* Pods-MuseStatsIos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuseStatsIos.release.xcconfig"; path = "Pods/Target Support Files/Pods-MuseStatsIos/Pods-MuseStatsIos.release.xcconfig"; sourceTree = "<group>"; };
 		5401E0181A93DA2600FADC22 /* MuseStatsIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuseStatsIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +113,10 @@
 				5401E0221A93DA2600FADC22 /* ViewController.h */,
 				5401E0231A93DA2600FADC22 /* ViewController.m */,
 				5401E0251A93DA2600FADC22 /* Main.storyboard */,
+				039797D71C9E68DA002DB1FA /* MuseViewController.swift */,
+				039797D61C9E6640002DB1FA /* MuseStatsIos-Bridging-Header.h */,
+				039797D41C9E6389002DB1FA /* MuseTableViewController.swift */,
+				039797D21C9E62EC002DB1FA /* TableViewCell.swift */,
 				5401E0281A93DA2600FADC22 /* Images.xcassets */,
 				5401E02A1A93DA2600FADC22 /* LaunchScreen.xib */,
 				5401E01B1A93DA2600FADC22 /* Supporting Files */,
@@ -317,8 +328,11 @@
 			files = (
 				5401E0241A93DA2600FADC22 /* ViewController.m in Sources */,
 				54EB6BC91AA0EAA3000D8142 /* LoggingListener.m in Sources */,
+				039797D31C9E62EC002DB1FA /* TableViewCell.swift in Sources */,
 				5401E0211A93DA2600FADC22 /* AppDelegate.m in Sources */,
 				5401E01E1A93DA2600FADC22 /* main.m in Sources */,
+				039797D81C9E68DA002DB1FA /* MuseViewController.swift in Sources */,
+				039797D51C9E6389002DB1FA /* MuseTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +458,7 @@
 			baseConfigurationReference = 1B0777ECAEC3AB5D5C7C631C /* Pods-MuseStatsIos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
@@ -466,6 +481,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.miles.MuseStatsIos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MuseStatsIos/MuseStatsIos-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -475,6 +492,7 @@
 			baseConfigurationReference = 1B7C02D1D3867FA0C3BB2492 /* Pods-MuseStatsIos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
@@ -497,6 +515,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.miles.MuseStatsIos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MuseStatsIos/MuseStatsIos-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
