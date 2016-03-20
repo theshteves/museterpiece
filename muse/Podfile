@@ -1,3 +1,0 @@
-target 'muse' do
-    pod "CSStickyHeaderFlowLayout"
-end
