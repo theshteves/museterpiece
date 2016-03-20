@@ -7,77 +7,131 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27261D980F6EF7B0EAC470B7A9338BEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		2EDC077F290D2DE7FC18118767708033 /* Pods-MuseStatsIos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF267EBFE7E580C8DFEDFB85AB3A954B /* Pods-MuseStatsIos-dummy.m */; };
-		5269DF3EE0C631DAD548DAB44C78A6CA /* CSStickyHeaderFlowLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 779EE6654DB99C4A1AE961FE3800639D /* CSStickyHeaderFlowLayout-dummy.m */; };
-		5D4E6BF4956C025C153964C5310A8BE5 /* CSStickyHeaderFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 8976E1064763EADD59A2A35FFA83CFBD /* CSStickyHeaderFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66D5776B69E5B6DD070B50C2BC524763 /* CSStickyHeaderFlowLayoutAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 97C99F810D478A9D2E8BCCA8FA0C7B9A /* CSStickyHeaderFlowLayoutAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A8744B0FEAFB1D280A7A95C0799612E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		79DE6086CD749FEACD7E6145D3B134E3 /* CSStickyHeaderFlowLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F47E97D058248591F18508EF1C6495E /* CSStickyHeaderFlowLayoutAttributes.m */; };
-		DFD5C6ED8DB81D88D31DA35D7E343321 /* CSStickyHeaderFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 898F3B72C255793AA71126FB336D8DDD /* CSStickyHeaderFlowLayout.m */; };
+		01D417EB7427342D9B11E2D073A68FBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		0439F31F87729DB29E5F05E2B1F5B13B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		0625F5B98434ED34CEBE41C362C3A809 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		095187D19D92E711C84D41157070C767 /* CSStickyHeaderFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA0269A7F9E3171AA9024187FF53419 /* CSStickyHeaderFlowLayout.m */; };
+		0EDD80961DEEEF4B1A1BB0598A8D120B /* Fluent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8931B2AC608B27437CE63935A91C5BB /* Fluent.swift */; };
+		1283FF810941EED86E367EAE06B1DE2D /* CSStickyHeaderFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 16D3109965D0D7CA8A6CB6C43802BBC1 /* CSStickyHeaderFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		567BDEA0D15A2E9B281D33907F16899C /* CSStickyHeaderFlowLayoutAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 13FF993955AA8C04462D297BF36A2BF4 /* CSStickyHeaderFlowLayoutAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A489789C84439AD0E44494BF7E07F2FB /* Pods-MuseStatsIos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AF8AC0A3C6594E55B055631973B7C7 /* Pods-MuseStatsIos-dummy.m */; };
+		AC909F21BD5C748CD4372C0457CF3F1A /* CSStickyHeaderFlowLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BC52002956535200E1EB04A1EB409A /* CSStickyHeaderFlowLayoutAttributes.m */; };
+		C4ABDF207C548E58E309B2B34E433434 /* CSStickyHeaderFlowLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3C92BE5883664F4ECD2EDBD7BAC7A27 /* CSStickyHeaderFlowLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C775FBB08DBA6936822E2BC00F18AF4C /* CSStickyHeaderFlowLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFA07BDC38AF4D8D4CC31C0E8DD88C /* CSStickyHeaderFlowLayout-dummy.m */; };
+		E8BFB4F27F95AFC069CEFB34AB1EF09B /* Fluent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDCA0A8F2A1A530E6B0D447D9B531C9D /* Fluent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9CEF20CF7CE40FE7A51C7C2CA8C14FE /* Pods-MuseStatsIos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F340DC5884CACD55F542B0DEFD0F81B2 /* Pods-MuseStatsIos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD032B6264719965CF88E2A4A12FCB38 /* Fluent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 370E0A96EB852616657DE3846E48E8B5 /* Fluent-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B0D7A8F2C8D4C4E4599066B33CF4E2AA /* PBXContainerItemProxy */ = {
+		4115153F847A102B0F441FCC3B4CB73A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1376614EF3971FB1754445A70BF65873;
+			remoteGlobalIDString = 9123EF8D681D1BF4C181FF03C9FA06CE;
+			remoteInfo = Fluent;
+		};
+		5850C1B7DA249538F6DF2B567D329AF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30C445E6D8703D94CB06D42EB47820DE;
 			remoteInfo = CSStickyHeaderFlowLayout;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B1389125C82E94F025408A98E3EE842 /* Pods-MuseStatsIos-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MuseStatsIos-acknowledgements.plist"; sourceTree = "<group>"; };
+		06AF533D5045A2E9577F2DD453A9DC7C /* Pods-MuseStatsIos-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MuseStatsIos-frameworks.sh"; sourceTree = "<group>"; };
+		06C790234877A41CF651CE629A7DCE08 /* Pods-MuseStatsIos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MuseStatsIos.debug.xcconfig"; sourceTree = "<group>"; };
+		0806F77E69178C99314AEC0BDCBF0195 /* Pods_MuseStatsIos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuseStatsIos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		088B9E44A1A23EA0D63036E782103E55 /* Fluent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Fluent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08AF8AC0A3C6594E55B055631973B7C7 /* Pods-MuseStatsIos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MuseStatsIos-dummy.m"; sourceTree = "<group>"; };
+		0D5F82039FD8332B4C2A3CC3C469EB39 /* Fluent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fluent.xcconfig; sourceTree = "<group>"; };
+		13FF993955AA8C04462D297BF36A2BF4 /* CSStickyHeaderFlowLayoutAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSStickyHeaderFlowLayoutAttributes.h; path = Classes/CSStickyHeaderFlowLayoutAttributes.h; sourceTree = "<group>"; };
+		16D3109965D0D7CA8A6CB6C43802BBC1 /* CSStickyHeaderFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSStickyHeaderFlowLayout.h; path = Classes/CSStickyHeaderFlowLayout.h; sourceTree = "<group>"; };
+		1BEFA07BDC38AF4D8D4CC31C0E8DD88C /* CSStickyHeaderFlowLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CSStickyHeaderFlowLayout-dummy.m"; sourceTree = "<group>"; };
+		1D57054CEB8095ABA1BFB0AD71FB02D8 /* Pods-MuseStatsIos-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MuseStatsIos-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F9CE12B47BC31F48440FC09C6FE1312 /* CSStickyHeaderFlowLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CSStickyHeaderFlowLayout.modulemap; sourceTree = "<group>"; };
+		370E0A96EB852616657DE3846E48E8B5 /* Fluent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Fluent-dummy.m"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		489A3909867BECC79A36CB4D2CDD15AA /* Pods-MuseStatsIos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MuseStatsIos.release.xcconfig"; sourceTree = "<group>"; };
-		5A03F3BA8F300134A43634078980A474 /* CSStickyHeaderFlowLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSStickyHeaderFlowLayout-prefix.pch"; sourceTree = "<group>"; };
-		779EE6654DB99C4A1AE961FE3800639D /* CSStickyHeaderFlowLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CSStickyHeaderFlowLayout-dummy.m"; sourceTree = "<group>"; };
-		7F47E97D058248591F18508EF1C6495E /* CSStickyHeaderFlowLayoutAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSStickyHeaderFlowLayoutAttributes.m; path = Classes/CSStickyHeaderFlowLayoutAttributes.m; sourceTree = "<group>"; };
-		8976E1064763EADD59A2A35FFA83CFBD /* CSStickyHeaderFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSStickyHeaderFlowLayout.h; path = Classes/CSStickyHeaderFlowLayout.h; sourceTree = "<group>"; };
-		898F3B72C255793AA71126FB336D8DDD /* CSStickyHeaderFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSStickyHeaderFlowLayout.m; path = Classes/CSStickyHeaderFlowLayout.m; sourceTree = "<group>"; };
-		97C99F810D478A9D2E8BCCA8FA0C7B9A /* CSStickyHeaderFlowLayoutAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSStickyHeaderFlowLayoutAttributes.h; path = Classes/CSStickyHeaderFlowLayoutAttributes.h; sourceTree = "<group>"; };
-		A82702D78F6AD3AE821F0CB1CBD6853E /* libCSStickyHeaderFlowLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCSStickyHeaderFlowLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5FB9304E6F76E786E6184028EF7D6BA /* libPods-MuseStatsIos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MuseStatsIos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		461B0E9EB087026A4E3F0ED608BE3B5C /* Fluent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Fluent.modulemap; sourceTree = "<group>"; };
+		5714621247054D601D9BC738E6B55642 /* Fluent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fluent-prefix.pch"; sourceTree = "<group>"; };
+		828B4B1534C005356694CEB4831171B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		907C52167D39AE822F4EA692070364EC /* Pods-MuseStatsIos-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MuseStatsIos-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9EA0269A7F9E3171AA9024187FF53419 /* CSStickyHeaderFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSStickyHeaderFlowLayout.m; path = Classes/CSStickyHeaderFlowLayout.m; sourceTree = "<group>"; };
+		A8931B2AC608B27437CE63935A91C5BB /* Fluent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fluent.swift; path = Fluent/Fluent.swift; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BF267EBFE7E580C8DFEDFB85AB3A954B /* Pods-MuseStatsIos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MuseStatsIos-dummy.m"; sourceTree = "<group>"; };
-		D9FBF0604B14A9518889017A2B3E0A84 /* Pods-MuseStatsIos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MuseStatsIos.debug.xcconfig"; sourceTree = "<group>"; };
-		DA91595FAD6633D2685491E130C18630 /* Pods-MuseStatsIos-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MuseStatsIos-resources.sh"; sourceTree = "<group>"; };
-		E5BFC4CAAC07EBFDF1891D978330D1DE /* CSStickyHeaderFlowLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSStickyHeaderFlowLayout.xcconfig; sourceTree = "<group>"; };
-		ECCDE125E1D6143ABEE65A667B07E8FA /* Pods-MuseStatsIos-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MuseStatsIos-frameworks.sh"; sourceTree = "<group>"; };
-		FA13114A9F99784749B67C4A5C128D90 /* Pods-MuseStatsIos-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MuseStatsIos-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BB60AD0F520F7303B6B9016C653F596D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF2D74F85AE9CECD82DDD9FA0FF8DF2C /* Pods-MuseStatsIos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MuseStatsIos.release.xcconfig"; sourceTree = "<group>"; };
+		C1F00F8812640ACC86F7CAA844AD0427 /* Pods-MuseStatsIos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MuseStatsIos.modulemap"; sourceTree = "<group>"; };
+		CF2D8328DF884AA9149179CA432924A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3BC52002956535200E1EB04A1EB409A /* CSStickyHeaderFlowLayoutAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSStickyHeaderFlowLayoutAttributes.m; path = Classes/CSStickyHeaderFlowLayoutAttributes.m; sourceTree = "<group>"; };
+		E3C92BE5883664F4ECD2EDBD7BAC7A27 /* CSStickyHeaderFlowLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSStickyHeaderFlowLayout-umbrella.h"; sourceTree = "<group>"; };
+		E3EE1FE924F3C51BA3B1269605C1CD98 /* CSStickyHeaderFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSStickyHeaderFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA88ED22DC6F33FFBBBCC0C6897A5E4 /* Pods-MuseStatsIos-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MuseStatsIos-resources.sh"; sourceTree = "<group>"; };
+		F340DC5884CACD55F542B0DEFD0F81B2 /* Pods-MuseStatsIos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MuseStatsIos-umbrella.h"; sourceTree = "<group>"; };
+		FC29D787A6546389C75A3014BE377ADC /* CSStickyHeaderFlowLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSStickyHeaderFlowLayout-prefix.pch"; sourceTree = "<group>"; };
+		FDCA0A8F2A1A530E6B0D447D9B531C9D /* Fluent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fluent-umbrella.h"; sourceTree = "<group>"; };
+		FE2E30C51D44747BE888B8A61673BD97 /* CSStickyHeaderFlowLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSStickyHeaderFlowLayout.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4601BDB4DFD36D457588350E7744C812 /* Frameworks */ = {
+		41453392EDF1EC123AB0880BF52D791E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A8744B0FEAFB1D280A7A95C0799612E /* Foundation.framework in Frameworks */,
+				0439F31F87729DB29E5F05E2B1F5B13B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CB46BF68FB464E8521C51E1A07FF469 /* Frameworks */ = {
+		BBCCF9F79793F43520017E6EC9742A13 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27261D980F6EF7B0EAC470B7A9338BEF /* Foundation.framework in Frameworks */,
+				0625F5B98434ED34CEBE41C362C3A809 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4483A42DC4F85468FF1CB040A16D65E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D417EB7427342D9B11E2D073A68FBF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		37F9BB29CB23D040E3F8793547C2DA94 /* CSStickyHeaderFlowLayout */ = {
+		09CF46171534D4EC8794691BD0628982 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8976E1064763EADD59A2A35FFA83CFBD /* CSStickyHeaderFlowLayout.h */,
-				898F3B72C255793AA71126FB336D8DDD /* CSStickyHeaderFlowLayout.m */,
-				97C99F810D478A9D2E8BCCA8FA0C7B9A /* CSStickyHeaderFlowLayoutAttributes.h */,
-				7F47E97D058248591F18508EF1C6495E /* CSStickyHeaderFlowLayoutAttributes.m */,
-				8A0D1A3F398C63964010C43868FC1D61 /* Support Files */,
+				FE7D361BE42155C224821AD8EA4EA40A /* Pods-MuseStatsIos */,
 			);
-			path = CSStickyHeaderFlowLayout;
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		58D141B08CDBD99F7FB7A416E7B94150 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F9CE12B47BC31F48440FC09C6FE1312 /* CSStickyHeaderFlowLayout.modulemap */,
+				FE2E30C51D44747BE888B8A61673BD97 /* CSStickyHeaderFlowLayout.xcconfig */,
+				1BEFA07BDC38AF4D8D4CC31C0E8DD88C /* CSStickyHeaderFlowLayout-dummy.m */,
+				FC29D787A6546389C75A3014BE377ADC /* CSStickyHeaderFlowLayout-prefix.pch */,
+				E3C92BE5883664F4ECD2EDBD7BAC7A27 /* CSStickyHeaderFlowLayout-umbrella.h */,
+				828B4B1534C005356694CEB4831171B8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CSStickyHeaderFlowLayout";
+			sourceTree = "<group>";
+		};
+		78981AA28AAE664809F3AC7FA717E76C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC8540121C916A30702C02F1A4227C5F /* CSStickyHeaderFlowLayout */,
+				F1D38E113ABDB3609E49AD225BDEC42D /* Fluent */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -85,37 +139,20 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				9C4BFA60338AFE48FECF42E56B19EB5F /* Pods */,
-				ED72D9A2A25E62BB3A1051470E276F94 /* Products */,
-				80EF8C0495CF8C7A504EFCA01B821309 /* Targets Support Files */,
+				78981AA28AAE664809F3AC7FA717E76C /* Pods */,
+				9CC20E998B009DAECD34A6AF1A550D50 /* Products */,
+				09CF46171534D4EC8794691BD0628982 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		80EF8C0495CF8C7A504EFCA01B821309 /* Targets Support Files */ = {
+		9CC20E998B009DAECD34A6AF1A550D50 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4099B5A78EF3FAD13677E6F1E34EBC1 /* Pods-MuseStatsIos */,
+				E3EE1FE924F3C51BA3B1269605C1CD98 /* CSStickyHeaderFlowLayout.framework */,
+				088B9E44A1A23EA0D63036E782103E55 /* Fluent.framework */,
+				0806F77E69178C99314AEC0BDCBF0195 /* Pods_MuseStatsIos.framework */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		8A0D1A3F398C63964010C43868FC1D61 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E5BFC4CAAC07EBFDF1891D978330D1DE /* CSStickyHeaderFlowLayout.xcconfig */,
-				779EE6654DB99C4A1AE961FE3800639D /* CSStickyHeaderFlowLayout-dummy.m */,
-				5A03F3BA8F300134A43634078980A474 /* CSStickyHeaderFlowLayout-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CSStickyHeaderFlowLayout";
-			sourceTree = "<group>";
-		};
-		9C4BFA60338AFE48FECF42E56B19EB5F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				37F9BB29CB23D040E3F8793547C2DA94 /* CSStickyHeaderFlowLayout */,
-			);
-			name = Pods;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -134,25 +171,54 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		ED72D9A2A25E62BB3A1051470E276F94 /* Products */ = {
+		D477D8EF037C71269EF9F1B09AF6D653 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A82702D78F6AD3AE821F0CB1CBD6853E /* libCSStickyHeaderFlowLayout.a */,
-				B5FB9304E6F76E786E6184028EF7D6BA /* libPods-MuseStatsIos.a */,
+				461B0E9EB087026A4E3F0ED608BE3B5C /* Fluent.modulemap */,
+				0D5F82039FD8332B4C2A3CC3C469EB39 /* Fluent.xcconfig */,
+				370E0A96EB852616657DE3846E48E8B5 /* Fluent-dummy.m */,
+				5714621247054D601D9BC738E6B55642 /* Fluent-prefix.pch */,
+				FDCA0A8F2A1A530E6B0D447D9B531C9D /* Fluent-umbrella.h */,
+				BB60AD0F520F7303B6B9016C653F596D /* Info.plist */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/Fluent";
 			sourceTree = "<group>";
 		};
-		F4099B5A78EF3FAD13677E6F1E34EBC1 /* Pods-MuseStatsIos */ = {
+		DC8540121C916A30702C02F1A4227C5F /* CSStickyHeaderFlowLayout */ = {
 			isa = PBXGroup;
 			children = (
-				FA13114A9F99784749B67C4A5C128D90 /* Pods-MuseStatsIos-acknowledgements.markdown */,
-				0B1389125C82E94F025408A98E3EE842 /* Pods-MuseStatsIos-acknowledgements.plist */,
-				BF267EBFE7E580C8DFEDFB85AB3A954B /* Pods-MuseStatsIos-dummy.m */,
-				ECCDE125E1D6143ABEE65A667B07E8FA /* Pods-MuseStatsIos-frameworks.sh */,
-				DA91595FAD6633D2685491E130C18630 /* Pods-MuseStatsIos-resources.sh */,
-				D9FBF0604B14A9518889017A2B3E0A84 /* Pods-MuseStatsIos.debug.xcconfig */,
-				489A3909867BECC79A36CB4D2CDD15AA /* Pods-MuseStatsIos.release.xcconfig */,
+				16D3109965D0D7CA8A6CB6C43802BBC1 /* CSStickyHeaderFlowLayout.h */,
+				9EA0269A7F9E3171AA9024187FF53419 /* CSStickyHeaderFlowLayout.m */,
+				13FF993955AA8C04462D297BF36A2BF4 /* CSStickyHeaderFlowLayoutAttributes.h */,
+				E3BC52002956535200E1EB04A1EB409A /* CSStickyHeaderFlowLayoutAttributes.m */,
+				58D141B08CDBD99F7FB7A416E7B94150 /* Support Files */,
+			);
+			path = CSStickyHeaderFlowLayout;
+			sourceTree = "<group>";
+		};
+		F1D38E113ABDB3609E49AD225BDEC42D /* Fluent */ = {
+			isa = PBXGroup;
+			children = (
+				A8931B2AC608B27437CE63935A91C5BB /* Fluent.swift */,
+				D477D8EF037C71269EF9F1B09AF6D653 /* Support Files */,
+			);
+			path = Fluent;
+			sourceTree = "<group>";
+		};
+		FE7D361BE42155C224821AD8EA4EA40A /* Pods-MuseStatsIos */ = {
+			isa = PBXGroup;
+			children = (
+				CF2D8328DF884AA9149179CA432924A2 /* Info.plist */,
+				C1F00F8812640ACC86F7CAA844AD0427 /* Pods-MuseStatsIos.modulemap */,
+				907C52167D39AE822F4EA692070364EC /* Pods-MuseStatsIos-acknowledgements.markdown */,
+				1D57054CEB8095ABA1BFB0AD71FB02D8 /* Pods-MuseStatsIos-acknowledgements.plist */,
+				08AF8AC0A3C6594E55B055631973B7C7 /* Pods-MuseStatsIos-dummy.m */,
+				06AF533D5045A2E9577F2DD453A9DC7C /* Pods-MuseStatsIos-frameworks.sh */,
+				EBA88ED22DC6F33FFBBBCC0C6897A5E4 /* Pods-MuseStatsIos-resources.sh */,
+				F340DC5884CACD55F542B0DEFD0F81B2 /* Pods-MuseStatsIos-umbrella.h */,
+				06C790234877A41CF651CE629A7DCE08 /* Pods-MuseStatsIos.debug.xcconfig */,
+				BF2D74F85AE9CECD82DDD9FA0FF8DF2C /* Pods-MuseStatsIos.release.xcconfig */,
 			);
 			name = "Pods-MuseStatsIos";
 			path = "Target Support Files/Pods-MuseStatsIos";
@@ -161,25 +227,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B58703AAC0AC4E953134753F37688469 /* Headers */ = {
+		22035EAFF29B8C0E8ADC77C1B244BC8B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D4E6BF4956C025C153964C5310A8BE5 /* CSStickyHeaderFlowLayout.h in Headers */,
-				66D5776B69E5B6DD070B50C2BC524763 /* CSStickyHeaderFlowLayoutAttributes.h in Headers */,
+				F9CEF20CF7CE40FE7A51C7C2CA8C14FE /* Pods-MuseStatsIos-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E685717BBA85E62A7837B82C3050DF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4ABDF207C548E58E309B2B34E433434 /* CSStickyHeaderFlowLayout-umbrella.h in Headers */,
+				1283FF810941EED86E367EAE06B1DE2D /* CSStickyHeaderFlowLayout.h in Headers */,
+				567BDEA0D15A2E9B281D33907F16899C /* CSStickyHeaderFlowLayoutAttributes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12D2D01CB97D4FD370E5F2BDFEDC08F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8BFB4F27F95AFC069CEFB34AB1EF09B /* Fluent-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1376614EF3971FB1754445A70BF65873 /* CSStickyHeaderFlowLayout */ = {
+		30C445E6D8703D94CB06D42EB47820DE /* CSStickyHeaderFlowLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F7762132C140E689BCAE4C8A6E2610A /* Build configuration list for PBXNativeTarget "CSStickyHeaderFlowLayout" */;
+			buildConfigurationList = D7A7F2F6EF8FD3D96A9D6A4A4E8884BC /* Build configuration list for PBXNativeTarget "CSStickyHeaderFlowLayout" */;
 			buildPhases = (
-				007A81658878A978D9F2086A9CA33EB9 /* Sources */,
-				9CB46BF68FB464E8521C51E1A07FF469 /* Frameworks */,
-				B58703AAC0AC4E953134753F37688469 /* Headers */,
+				4B8C60A2130A1A3F7901D711445CC038 /* Sources */,
+				BBCCF9F79793F43520017E6EC9742A13 /* Frameworks */,
+				6E685717BBA85E62A7837B82C3050DF6 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -187,25 +270,44 @@
 			);
 			name = CSStickyHeaderFlowLayout;
 			productName = CSStickyHeaderFlowLayout;
-			productReference = A82702D78F6AD3AE821F0CB1CBD6853E /* libCSStickyHeaderFlowLayout.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = E3EE1FE924F3C51BA3B1269605C1CD98 /* CSStickyHeaderFlowLayout.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		B84B0AADAD66F2EC5CDACB9F89D2B140 /* Pods-MuseStatsIos */ = {
+		70E612790617FF721A37E4E0DF09B306 /* Pods-MuseStatsIos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9F25BEB33D15B99AA183C9D635C5020 /* Build configuration list for PBXNativeTarget "Pods-MuseStatsIos" */;
+			buildConfigurationList = A33FCAAEE192C13EE2159CABD3185EA6 /* Build configuration list for PBXNativeTarget "Pods-MuseStatsIos" */;
 			buildPhases = (
-				596774D0985F8FC1FC521B31970B060F /* Sources */,
-				4601BDB4DFD36D457588350E7744C812 /* Frameworks */,
+				0D7891D8D0996E215E6A83795B0F90AE /* Sources */,
+				41453392EDF1EC123AB0880BF52D791E /* Frameworks */,
+				22035EAFF29B8C0E8ADC77C1B244BC8B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				48130BAF63C6E3897A312B33A6FA2A67 /* PBXTargetDependency */,
+				2E6A44BC963E1865E05F561EE91D267B /* PBXTargetDependency */,
+				00B46A1D8D59707D43CB76BEA9E6CA97 /* PBXTargetDependency */,
 			);
 			name = "Pods-MuseStatsIos";
 			productName = "Pods-MuseStatsIos";
-			productReference = B5FB9304E6F76E786E6184028EF7D6BA /* libPods-MuseStatsIos.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 0806F77E69178C99314AEC0BDCBF0195 /* Pods_MuseStatsIos.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9123EF8D681D1BF4C181FF03C9FA06CE /* Fluent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2448A408AF5AD7331EA1FE617F540E8 /* Build configuration list for PBXNativeTarget "Fluent" */;
+			buildPhases = (
+				8DCEE8C147F7BB86E80B88AF43BCEF48 /* Sources */,
+				F4483A42DC4F85468FF1CB040A16D65E /* Frameworks */,
+				D12D2D01CB97D4FD370E5F2BDFEDC08F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fluent;
+			productName = Fluent;
+			productReference = 088B9E44A1A23EA0D63036E782103E55 /* Fluent.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -224,64 +326,119 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = ED72D9A2A25E62BB3A1051470E276F94 /* Products */;
+			productRefGroup = 9CC20E998B009DAECD34A6AF1A550D50 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1376614EF3971FB1754445A70BF65873 /* CSStickyHeaderFlowLayout */,
-				B84B0AADAD66F2EC5CDACB9F89D2B140 /* Pods-MuseStatsIos */,
+				30C445E6D8703D94CB06D42EB47820DE /* CSStickyHeaderFlowLayout */,
+				9123EF8D681D1BF4C181FF03C9FA06CE /* Fluent */,
+				70E612790617FF721A37E4E0DF09B306 /* Pods-MuseStatsIos */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		007A81658878A978D9F2086A9CA33EB9 /* Sources */ = {
+		0D7891D8D0996E215E6A83795B0F90AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5269DF3EE0C631DAD548DAB44C78A6CA /* CSStickyHeaderFlowLayout-dummy.m in Sources */,
-				DFD5C6ED8DB81D88D31DA35D7E343321 /* CSStickyHeaderFlowLayout.m in Sources */,
-				79DE6086CD749FEACD7E6145D3B134E3 /* CSStickyHeaderFlowLayoutAttributes.m in Sources */,
+				A489789C84439AD0E44494BF7E07F2FB /* Pods-MuseStatsIos-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		596774D0985F8FC1FC521B31970B060F /* Sources */ = {
+		4B8C60A2130A1A3F7901D711445CC038 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EDC077F290D2DE7FC18118767708033 /* Pods-MuseStatsIos-dummy.m in Sources */,
+				C775FBB08DBA6936822E2BC00F18AF4C /* CSStickyHeaderFlowLayout-dummy.m in Sources */,
+				095187D19D92E711C84D41157070C767 /* CSStickyHeaderFlowLayout.m in Sources */,
+				AC909F21BD5C748CD4372C0457CF3F1A /* CSStickyHeaderFlowLayoutAttributes.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DCEE8C147F7BB86E80B88AF43BCEF48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD032B6264719965CF88E2A4A12FCB38 /* Fluent-dummy.m in Sources */,
+				0EDD80961DEEEF4B1A1BB0598A8D120B /* Fluent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		48130BAF63C6E3897A312B33A6FA2A67 /* PBXTargetDependency */ = {
+		00B46A1D8D59707D43CB76BEA9E6CA97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Fluent;
+			target = 9123EF8D681D1BF4C181FF03C9FA06CE /* Fluent */;
+			targetProxy = 4115153F847A102B0F441FCC3B4CB73A /* PBXContainerItemProxy */;
+		};
+		2E6A44BC963E1865E05F561EE91D267B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CSStickyHeaderFlowLayout;
-			target = 1376614EF3971FB1754445A70BF65873 /* CSStickyHeaderFlowLayout */;
-			targetProxy = B0D7A8F2C8D4C4E4599066B33CF4E2AA /* PBXContainerItemProxy */;
+			target = 30C445E6D8703D94CB06D42EB47820DE /* CSStickyHeaderFlowLayout */;
+			targetProxy = 5850C1B7DA249538F6DF2B567D329AF5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		322DD5881B9C5096B8A00E6F9FC0DF0E /* Debug */ = {
+		185C92C9F69C186D5F0933632DA7C7AD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5BFC4CAAC07EBFDF1891D978330D1DE /* CSStickyHeaderFlowLayout.xcconfig */;
+			baseConfigurationReference = FE2E30C51D44747BE888B8A61673BD97 /* CSStickyHeaderFlowLayout.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/CSStickyHeaderFlowLayout/CSStickyHeaderFlowLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CSStickyHeaderFlowLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CSStickyHeaderFlowLayout/CSStickyHeaderFlowLayout.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = CSStickyHeaderFlowLayout;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		3ABFE5C01490D8B88AF6697F472D1330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF2D74F85AE9CECD82DDD9FA0FF8DF2C /* Pods-MuseStatsIos.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MuseStatsIos/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MuseStatsIos/Pods-MuseStatsIos.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MuseStatsIos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		511103F7F15A7E8F83B268EA03462CAB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -317,23 +474,91 @@
 			};
 			name = Release;
 		};
-		68276BADB2168C667CDDCF7B1136DF21 /* Release */ = {
+		79A42835ED7B64D1441DFBD16DCEB741 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5BFC4CAAC07EBFDF1891D978330D1DE /* CSStickyHeaderFlowLayout.xcconfig */;
+			baseConfigurationReference = FE2E30C51D44747BE888B8A61673BD97 /* CSStickyHeaderFlowLayout.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/CSStickyHeaderFlowLayout/CSStickyHeaderFlowLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CSStickyHeaderFlowLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CSStickyHeaderFlowLayout/CSStickyHeaderFlowLayout.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = CSStickyHeaderFlowLayout;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		7F4E0DD8AF1F1397F85480AC095D7F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D5F82039FD8332B4C2A3CC3C469EB39 /* Fluent.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Fluent/Fluent-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Fluent/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Fluent/Fluent.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Fluent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B43715CAE6BB8A042C29A3CC58B7BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06C790234877A41CF651CE629A7DCE08 /* Pods-MuseStatsIos.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MuseStatsIos/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MuseStatsIos/Pods-MuseStatsIos.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MuseStatsIos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -374,39 +599,32 @@
 			};
 			name = Debug;
 		};
-		C0EBA32FC2FF6477C3A013CFC51889A2 /* Release */ = {
+		D54A25C0EB27A27361490FC901B72C84 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 489A3909867BECC79A36CB4D2CDD15AA /* Pods-MuseStatsIos.release.xcconfig */;
+			baseConfigurationReference = 0D5F82039FD8332B4C2A3CC3C469EB39 /* Fluent.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Fluent/Fluent-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Fluent/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MACH_O_TYPE = staticlib;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Fluent/Fluent.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Fluent;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		FA8BBDA554D9AD65C8C57FCF3E7BBF16 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9FBF0604B14A9518889017A2B3E0A84 /* Pods-MuseStatsIos.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -420,20 +638,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F7762132C140E689BCAE4C8A6E2610A /* Build configuration list for PBXNativeTarget "CSStickyHeaderFlowLayout" */ = {
+		A33FCAAEE192C13EE2159CABD3185EA6 /* Build configuration list for PBXNativeTarget "Pods-MuseStatsIos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				322DD5881B9C5096B8A00E6F9FC0DF0E /* Debug */,
-				68276BADB2168C667CDDCF7B1136DF21 /* Release */,
+				8B43715CAE6BB8A042C29A3CC58B7BE9 /* Debug */,
+				3ABFE5C01490D8B88AF6697F472D1330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9F25BEB33D15B99AA183C9D635C5020 /* Build configuration list for PBXNativeTarget "Pods-MuseStatsIos" */ = {
+		D7A7F2F6EF8FD3D96A9D6A4A4E8884BC /* Build configuration list for PBXNativeTarget "CSStickyHeaderFlowLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA8BBDA554D9AD65C8C57FCF3E7BBF16 /* Debug */,
-				C0EBA32FC2FF6477C3A013CFC51889A2 /* Release */,
+				185C92C9F69C186D5F0933632DA7C7AD /* Debug */,
+				79A42835ED7B64D1441DFBD16DCEB741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2448A408AF5AD7331EA1FE617F540E8 /* Build configuration list for PBXNativeTarget "Fluent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4E0DD8AF1F1397F85480AC095D7F06 /* Debug */,
+				D54A25C0EB27A27361490FC901B72C84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

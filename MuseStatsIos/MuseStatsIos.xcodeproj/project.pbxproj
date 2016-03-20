@@ -10,6 +10,8 @@
 		039797D31C9E62EC002DB1FA /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039797D21C9E62EC002DB1FA /* TableViewCell.swift */; };
 		039797D51C9E6389002DB1FA /* MuseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039797D41C9E6389002DB1FA /* MuseTableViewController.swift */; };
 		039797D81C9E68DA002DB1FA /* MuseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039797D71C9E68DA002DB1FA /* MuseViewController.swift */; };
+		039797DC1C9EEA0F002DB1FA /* CurrentWaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039797DB1C9EEA0F002DB1FA /* CurrentWaveViewController.swift */; };
+		1BEE65E0D2D806D8C9E448C2 /* Pods_MuseStatsIos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D64630A59399608E6C61783 /* Pods_MuseStatsIos.framework */; };
 		5401E01E1A93DA2600FADC22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5401E01D1A93DA2600FADC22 /* main.m */; };
 		5401E0211A93DA2600FADC22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5401E0201A93DA2600FADC22 /* AppDelegate.m */; };
 		5401E0241A93DA2600FADC22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5401E0231A93DA2600FADC22 /* ViewController.m */; };
@@ -18,7 +20,6 @@
 		5401E02C1A93DA2600FADC22 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5401E02A1A93DA2600FADC22 /* LaunchScreen.xib */; };
 		5401E0381A93DA2600FADC22 /* MuseStatsIosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5401E0371A93DA2600FADC22 /* MuseStatsIosTests.m */; };
 		54EB6BC91AA0EAA3000D8142 /* LoggingListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EB6BC81AA0EAA3000D8142 /* LoggingListener.m */; };
-		ACB49127022394CC82B001B3 /* libPods-MuseStatsIos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F510290F967FA4ACCA0C65AB /* libPods-MuseStatsIos.a */; };
 		E91B78621B03B8A300082B2E /* libMuse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E91B78611B03B8A300082B2E /* libMuse.a */; };
 		E94FB6F01B03B53400B73B4B /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E94FB6EF1B03B53400B73B4B /* libc++.dylib */; };
 /* End PBXBuildFile section */
@@ -38,8 +39,10 @@
 		039797D41C9E6389002DB1FA /* MuseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuseTableViewController.swift; sourceTree = "<group>"; };
 		039797D61C9E6640002DB1FA /* MuseStatsIos-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MuseStatsIos-Bridging-Header.h"; sourceTree = "<group>"; };
 		039797D71C9E68DA002DB1FA /* MuseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuseViewController.swift; sourceTree = "<group>"; };
+		039797DB1C9EEA0F002DB1FA /* CurrentWaveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWaveViewController.swift; sourceTree = "<group>"; };
 		1B0777ECAEC3AB5D5C7C631C /* Pods-MuseStatsIos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuseStatsIos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MuseStatsIos/Pods-MuseStatsIos.debug.xcconfig"; sourceTree = "<group>"; };
 		1B7C02D1D3867FA0C3BB2492 /* Pods-MuseStatsIos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuseStatsIos.release.xcconfig"; path = "Pods/Target Support Files/Pods-MuseStatsIos/Pods-MuseStatsIos.release.xcconfig"; sourceTree = "<group>"; };
+		1D64630A59399608E6C61783 /* Pods_MuseStatsIos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuseStatsIos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5401E0181A93DA2600FADC22 /* MuseStatsIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuseStatsIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5401E01C1A93DA2600FADC22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5401E01D1A93DA2600FADC22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -58,7 +61,6 @@
 		E91B78611B03B8A300082B2E /* libMuse.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMuse.a; sourceTree = "<group>"; };
 		E91B78631B03B8F500082B2E /* Muse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Muse.h; path = Headers/Muse/Muse.h; sourceTree = "<group>"; };
 		E94FB6EF1B03B53400B73B4B /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
-		F510290F967FA4ACCA0C65AB /* libPods-MuseStatsIos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MuseStatsIos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +70,7 @@
 			files = (
 				E91B78621B03B8A300082B2E /* libMuse.a in Frameworks */,
 				E94FB6F01B03B53400B73B4B /* libc++.dylib in Frameworks */,
-				ACB49127022394CC82B001B3 /* libPods-MuseStatsIos.a in Frameworks */,
+				1BEE65E0D2D806D8C9E448C2 /* Pods_MuseStatsIos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +115,7 @@
 				5401E0221A93DA2600FADC22 /* ViewController.h */,
 				5401E0231A93DA2600FADC22 /* ViewController.m */,
 				5401E0251A93DA2600FADC22 /* Main.storyboard */,
+				039797DB1C9EEA0F002DB1FA /* CurrentWaveViewController.swift */,
 				039797D71C9E68DA002DB1FA /* MuseViewController.swift */,
 				039797D61C9E6640002DB1FA /* MuseStatsIos-Bridging-Header.h */,
 				039797D41C9E6389002DB1FA /* MuseTableViewController.swift */,
@@ -164,7 +167,7 @@
 		B294F2170518EE92808CF2A6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F510290F967FA4ACCA0C65AB /* libPods-MuseStatsIos.a */,
+				1D64630A59399608E6C61783 /* Pods_MuseStatsIos.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				5401E01E1A93DA2600FADC22 /* main.m in Sources */,
 				039797D81C9E68DA002DB1FA /* MuseViewController.swift in Sources */,
 				039797D51C9E6389002DB1FA /* MuseTableViewController.swift in Sources */,
+				039797DC1C9EEA0F002DB1FA /* CurrentWaveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

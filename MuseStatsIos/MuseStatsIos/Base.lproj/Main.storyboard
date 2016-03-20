@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <slider opaque="NO" contentMode="scaleAspectFill" misplaced="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="center" value="50" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="dLq-dQ-KQt">
+                            <slider opaque="NO" contentMode="scaleAspectFill" misplaced="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="center" minValue="-500" maxValue="500" translatesAutoresizingMaskIntoConstraints="NO" id="dLq-dQ-KQt">
                                 <rect key="frame" x="152" y="20" width="297" height="581"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="293" id="fG3-Lh-ox7"/>
@@ -38,7 +38,6 @@
                                 <state key="normal" title="Start"/>
                                 <connections>
                                     <action selector="press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IZa-hg-12I"/>
-                                    <segue destination="cOs-2t-lo6" kind="show" id="BXG-EG-KLU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -55,7 +54,7 @@
                     </view>
                     <connections>
                         <outlet property="thebutton" destination="7SW-Wi-EIT" id="SVv-bC-hdo"/>
-                        <outlet property="theslider" destination="dLq-dQ-KQt" id="ghZ-aL-Icj"/>
+                        <outlet property="theslider" destination="dLq-dQ-KQt" id="2EP-y8-3Nr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -105,12 +104,12 @@
         <!--Current Waves-->
         <scene sceneID="lRe-D1-l3F">
             <objects>
-                <viewController id="dt5-gU-LI4" customClass="CurrentWaveViewController" customModule="MuseStatsIos" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="dt5-gU-LI4" customClass="MuseViewController" customModule="MuseStatsIos" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9yY-iK-yMt"/>
                         <viewControllerLayoutGuide type="bottom" id="JXe-RX-QV7"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Tbi-cu-uCc">
+                    <view key="view" contentMode="scaleToFill" id="Tbi-cu-uCc" customClass="UIWindow">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>

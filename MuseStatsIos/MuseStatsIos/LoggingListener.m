@@ -3,6 +3,7 @@
 //  MuseStatsIos
 //
 
+#import "ViewController.h"
 #import "LoggingListener.h"
 
 @interface LoggingListener () {
@@ -38,14 +39,16 @@
 }
 
 - (void)receiveMuseDataPacket:(IXNMuseDataPacket *)packet {
+    ViewController *vc = [[ViewController alloc] init];
     switch (packet.packetType) {
         case IXNMuseDataPacketTypeBattery:
             NSLog(@"battery packet received");
 //            [self.fileWriter addDataPacket:1 packet:packet];
             break;
         case IXNMuseDataPacketTypeAccelerometer:
-//            NSLog(@"Accel-data recieved: %@", packet.values);
-            self.accelData = packet.values;
+            NSLog(@"Freq-data recieved: %@", packet.values);
+            self.accelData = packet.values[2];
+            vc.theslider.value = [self.accelData floatValue];
             break;
 //        case IXNMuseDataPacketTypeAlphaRelative:
 //            //self.alphaRelative = packet.values[0];

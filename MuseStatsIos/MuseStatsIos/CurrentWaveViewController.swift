@@ -12,13 +12,16 @@ class CurrentWaveViewController: UITabBarController {
 
     @IBOutlet weak var Ball: UIImageView!
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        while true {
-            let Ballx = CGFloat(Ball.frame.origin.x)
-            let Bally = CGFloat(Ball.frame.origin.y)
-            Ball.frame = CGRect(x: Ballx, y: Bally + rand, width: 22, height: 22)
-        }
+//        while true {
+//            
+//            let Ballx = CGFloat(Ball.frame.origin.x)
+//            let Bally = CGFloat(Ball.frame.origin.y)
+//            Ball.frame = CGRect(x: Ballx, y: Bally, width: 22, height: 22)
+//        }
         // Do any additional setup after loading the view.
     }
     

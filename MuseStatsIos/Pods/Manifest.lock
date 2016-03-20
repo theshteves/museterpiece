@@ -1,10 +1,13 @@
 PODS:
   - CSStickyHeaderFlowLayout (0.2.10)
+  - Fluent (0.1.1)
 
 DEPENDENCIES:
   - CSStickyHeaderFlowLayout
+  - Fluent (~> 0.1)
 
 SPEC CHECKSUMS:
   CSStickyHeaderFlowLayout: 5366582779d8b7c9ba9b9cc729c218cc23888776
+  Fluent: 5fa2be9aca595edd4c28831a15c28ea2340f8560
 
 COCOAPODS: 0.39.0
