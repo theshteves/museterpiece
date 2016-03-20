@@ -53,6 +53,10 @@
                             <constraint firstItem="7SW-Wi-EIT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rIv-oi-LgK"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="thebutton" destination="7SW-Wi-EIT" id="SVv-bC-hdo"/>
+                        <outlet property="theslider" destination="dLq-dQ-KQt" id="ghZ-aL-Icj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -79,7 +83,7 @@
             </objects>
             <point key="canvasLocation" x="1878" y="315"/>
         </scene>
-        <!--Item 2-->
+        <!--More Statistics-->
         <scene sceneID="ASo-fP-XDo">
             <objects>
                 <viewController id="u6b-UG-a8Q" customClass="MuseViewController" customModule="MuseStatsIos" customModuleProvider="target" sceneMemberID="viewController">
@@ -87,18 +91,18 @@
                         <viewControllerLayoutGuide type="top" id="4jb-qS-2iR"/>
                         <viewControllerLayoutGuide type="bottom" id="Xb4-AL-WeD"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="9DR-O8-IGU">
+                    <view key="view" contentMode="scaleToFill" id="02b-zL-zV8">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="fM0-Yz-Urb"/>
+                    <tabBarItem key="tabBarItem" title="More Statistics" image="More-50" id="fM0-Yz-Urb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZKS-Hd-Jyw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3486" y="827"/>
         </scene>
-        <!--Item 1-->
+        <!--Current Waves-->
         <scene sceneID="lRe-D1-l3F">
             <objects>
                 <viewController id="dt5-gU-LI4" sceneMemberID="viewController">
@@ -111,7 +115,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="Nit-UE-5f0"/>
+                    <tabBarItem key="tabBarItem" title="Current Waves" image="Audio Wave-50" id="Nit-UE-5f0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JhN-bi-cva" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -147,4 +151,8 @@
             <point key="canvasLocation" x="2648" y="315"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Audio Wave-50" width="50" height="50"/>
+        <image name="More-50" width="50" height="50"/>
+    </resources>
 </document>
