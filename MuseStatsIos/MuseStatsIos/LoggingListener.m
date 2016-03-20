@@ -12,12 +12,16 @@
 @property (nonatomic) BOOL sawOneBlink;
 @property (nonatomic, weak) AppDelegate* delegate;
 @property (nonatomic) id<IXNMuseFileWriter> fileWriter;
+
+@property (nonatomic) id accelData;
+
 @end
 
 @implementation LoggingListener
 
 - (instancetype)initWithDelegate:(AppDelegate *)delegate {
     _delegate = delegate;
+    
     /**
      * Set <key>UIFileSharingEnabled</key> to true in Info.plist if you want
      * to see the file in iTunes
@@ -40,11 +44,41 @@
 //            [self.fileWriter addDataPacket:1 packet:packet];
             break;
         case IXNMuseDataPacketTypeAccelerometer:
+//            NSLog(@"Accel-data recieved: %@", packet.values);
+            self.accelData = packet.values;
             break;
+//        case IXNMuseDataPacketTypeAlphaRelative:
+//            //self.alphaRelative = packet.values[0];
+//            [self doIt];
+//            break;
+//        case IXNMuseDataPacketTypeBetaRelative:
+//            self.betaRelative = packet.values[0];
+//            [self doIt];
+//            break;
+//        case IXNMuseDataPacketTypeDeltaRelative:
+//            self.deltaRelative = packet.values[0];
+//            [self doIt];
+//            break;
+//        case IXNMuseDataPacketTypeGammaRelative:
+//            self.gammaRelative = packet.values[0];
+//            [self doIt];
+//            break;
+//        case IXNMuseDataPacketTypeThetaRelative:
+//            self.thetaRelative = packet.values[0];
+//            [self doIt];
+//            break;
         default:
             break;
     }
 }
+
+//- (void)doIt {
+//    NSLog(@"alphaRelative:%@", self.alphaRelative);
+//    NSLog(@"betaRelative:%@", self.betaRelative);
+//    NSLog(@"deltaRelative:%@", self.deltaRelative);
+//    NSLog(@"gammaRelative:%@", self.gammaRelative);
+//    NSLog(@"thetaRelative:%@", self.thetaRelative);
+//}
 
 - (void)receiveMuseArtifactPacket:(IXNMuseArtifactPacket *)packet {
     if (!packet.headbandOn)
