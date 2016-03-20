@@ -1,3 +1,5 @@
 target 'MuseStatsIos' do
+    use_frameworks!
     pod "CSStickyHeaderFlowLayout"
+    pod "Fluent", "~> 0.1"
 end
